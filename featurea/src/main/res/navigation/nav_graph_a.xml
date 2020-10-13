@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_a"
+    app:startDestination="@id/featureAFragment">
+
+    <fragment
+        android:id="@+id/featureAFragment"
+        android:name="com.biofourmis.featurea.FeatureAFragment"
+        android:label="fragment_feature_a"
+        tools:layout="@layout/fragment_feature_a">
+        <argument
+            android:name="argAValue"
+            app:argType="string"
+            android:defaultValue="0" />
+    </fragment>
+</navigation>

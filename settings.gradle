@@ -1,0 +1,5 @@
+include ':core'
+include ':featureb'
+include ':featurea'
+include ':app'
+rootProject.name = "SampleModularApp"

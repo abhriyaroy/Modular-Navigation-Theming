@@ -29,12 +29,19 @@ class HomeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        println("here too")
         buttonNavigateFeatureA.setOnClickListener {
             featureARouteContractImpl.show("abc", findNavController())
         }
         buttonNavigateFeatureB.setOnClickListener {
-            featureBRouteContractImpl.show("abc", findNavController())
+            featureBRouteContractImpl.show("def", findNavController())
         }
+        toggleTheme.setOnClickListener {
+            MainActivity.accentTheme = !MainActivity.accentTheme
+                    requireActivity().recreate()
+        }
+
+
     }
 
 }

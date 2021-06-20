@@ -23,6 +23,10 @@ allprojects {
         maven {
             url "https://androidx.dev/snapshots/builds/6543454/artifacts/repository/"
         }
+        maven {
+            url "https://developer.biovotion.com:8443/repository/maven-releases/"
+        }
+        maven { url "https://jitpack.io" }
     }
 }
 

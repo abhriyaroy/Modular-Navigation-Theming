@@ -2,4 +2,5 @@ include ':core'
 include ':featureb'
 include ':featurea'
 include ':app'
+include ':testaar'
 rootProject.name = "SampleModularApp"

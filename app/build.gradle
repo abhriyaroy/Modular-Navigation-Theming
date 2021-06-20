@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId "com.biofourmis.samplemodularapp"
-        minSdkVersion 16
+        minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -42,6 +42,7 @@ dependencies {
     implementation 'androidx.hilt:hilt-common:1.0.0-SNAPSHOT'
     implementation 'androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-SNAPSHOT'
     kapt 'androidx.hilt:hilt-compiler:1.0.0-SNAPSHOT'
+
 
     implementation project(":featurea")
     implementation project(":featureb")

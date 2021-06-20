@@ -1,4 +1,4 @@
-package com.biofourmis.featureb
+package com.abhriya.featureb
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.biofourmis.core.FeatureScreenARouteContract
+import com.abhriya.core.FeatureScreenARouteContract
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_feature_b.*
 import javax.inject.Inject

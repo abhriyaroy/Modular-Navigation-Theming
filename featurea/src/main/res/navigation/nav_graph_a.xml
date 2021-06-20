@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/featureAFragment"
-        android:name="com.biofourmis.featurea.FeatureAFragment"
+        android:name="com.abhriya.featurea.FeatureAFragment"
         android:label="fragment_feature_a"
         tools:layout="@layout/fragment_feature_a">
         <argument

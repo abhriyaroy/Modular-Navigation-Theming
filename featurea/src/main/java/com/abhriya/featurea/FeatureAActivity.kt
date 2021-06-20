@@ -1,4 +1,4 @@
-package com.biofourmis.featurea
+package com.abhriya.featurea
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

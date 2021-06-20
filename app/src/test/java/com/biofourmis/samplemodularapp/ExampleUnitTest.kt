@@ -1,4 +1,4 @@
-package com.biofourmis.samplemodularapp
+package com.abhriya.samplemodularapp
 
 import org.junit.Test
 

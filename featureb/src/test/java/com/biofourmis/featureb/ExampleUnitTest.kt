@@ -1,4 +1,4 @@
-package com.biofourmis.featureb
+package com.abhriya.featureb
 
 import org.junit.Test
 

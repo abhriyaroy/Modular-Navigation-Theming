@@ -1,6 +1,6 @@
-package com.biofourmis.featurea
+package com.abhriya.featurea
 
-import com.biofourmis.core.FeatureScreenARouteContract
+import com.abhriya.core.FeatureScreenARouteContract
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

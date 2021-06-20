@@ -1,9 +1,9 @@
-package com.biofourmis.featurea
+package com.abhriya.featurea
 
 import android.os.Bundle
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
-import com.biofourmis.core.FeatureScreenARouteContract
+import com.abhriya.core.FeatureScreenARouteContract
 
 class FeatureARouteContaractImpl : FeatureScreenARouteContract{
 

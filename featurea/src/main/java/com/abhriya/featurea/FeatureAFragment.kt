@@ -1,4 +1,4 @@
-package com.biofourmis.featurea
+package com.abhriya.featurea
 
 import android.content.Context
 import android.os.Bundle
@@ -8,7 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import com.biofourmis.core.FeatureScreenBRouteContract
+import com.abhriya.core.FeatureScreenBRouteContract
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_feature_a.*
 import javax.inject.Inject

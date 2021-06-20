@@ -1,8 +1,8 @@
-package com.biofourmis.featureb
+package com.abhriya.featureb
 
 import androidx.core.os.bundleOf
 import androidx.navigation.NavController
-import com.biofourmis.core.FeatureScreenBRouteContract
+import com.abhriya.core.FeatureScreenBRouteContract
 
 class FeatureBRouteContractImpl : FeatureScreenBRouteContract{
 

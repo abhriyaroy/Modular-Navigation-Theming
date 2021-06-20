@@ -1,4 +1,4 @@
-package com.biofourmis.core
+package com.abhriya.core
 
 import android.app.Activity
 import androidx.navigation.NavController

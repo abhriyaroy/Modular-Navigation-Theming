@@ -1,11 +1,11 @@
-package com.biofourmis.samplemodularapp
+package com.abhriya.featureb
 
-import dagger.Module
+import dagger.hilt.EntryPoint
 import dagger.hilt.InstallIn
 import dagger.hilt.android.components.ApplicationComponent
 
-@Module
+@EntryPoint
 @InstallIn(ApplicationComponent::class)
-class AppModule {
+interface FeatureBModuleDependencies {
 
 }
